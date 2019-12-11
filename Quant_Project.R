@@ -7,7 +7,7 @@ library(ggmap)
 library(ggplot2)
 library(gridExtra)
 
-register_google(key = "AIzaSyAS8G7QC_rjApW18LdW6qM_dbM8Upxq2yI", write = TRUE)
+register_google(key = "", write = TRUE)
 #######################################################################################
 
 data <- read.csv("C:/Users/alanj/OneDrive/Desktop/BPD.csv", stringsAsFactors=FALSE)
