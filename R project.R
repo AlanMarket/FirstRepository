@@ -5,7 +5,7 @@ library(ggmap)
 library(ggplot2)
 head(calendar)
 
-register_google(key = "AIzaSyAS8G7QC_rjApW18LdW6qM_dbM8Upxq2yI", write = TRUE)
+register_google(key = "", write = TRUE)
 
 
 calendar$pricenum <- gsub("$", "", calendar$adjusted_price, fixed=TRUE)
